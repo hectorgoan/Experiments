@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfExperimento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Experimento>
+    <nombre>fdsafa</nombre>
+    <tipo>Caída Libre</tipo>
+    <planeta>Tierra</planeta>
+    <masa>500</masa>
+    <altura>0</altura>
+    <angulo>0</angulo>
+    <velocidad>0</velocidad>
+  </Experimento>
+  <Experimento>
+    <nombre>fdsafaffff</nombre>
+    <tipo>Caída Libre</tipo>
+    <planeta>Luna</planeta>
+    <masa>500</masa>
+    <altura>0</altura>
+    <angulo>0</angulo>
+    <velocidad>0</velocidad>
+  </Experimento>
+</ArrayOfExperimento>

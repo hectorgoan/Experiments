@@ -1,0 +1,51 @@
+c:\users\hecto\documents\visual studio 2015\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.exe.config
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.exe
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.pdb
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.csprojResolveAssemblyReference.cache
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\MainWindow.g.cs
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\App.g.cs
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.cache
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.lref
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\MainWindow.baml
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.g.resources
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.Properties.Resources.resources
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.csproj.GenerateResource.Cache
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.exe
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.pdb
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Preferences.g.cs
+C:\Users\hecto\Documents\Visual Studio 2015\Projects\Experimentos\Experimentos\obj\Debug\Preferences.baml
+E:\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.exe.config
+E:\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.exe
+E:\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.pdb
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.exe.config
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.exe
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.pdb
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.exe
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\bin\Debug\Experimentos.pdb
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.csprojResolveAssemblyReference.cache
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\MainWindow.g.cs
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Preferences.g.cs
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\App.g.cs
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.cache
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.lref
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\MainWindow.baml
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Preferences.baml
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.g.resources
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.Properties.Resources.resources
+C:\Users\hecto\Desktop\Projects\Experimentos\Experimentos\obj\Debug\Experimentos.csproj.GenerateResource.Cache
+E:\WorkingOn\Experimentos\Experimentos\bin\Debug\Experimentos.exe.config
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.exe
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.pdb
+E:\WorkingOn\Experimentos\Experimentos\bin\Debug\Experimentos.exe
+E:\WorkingOn\Experimentos\Experimentos\bin\Debug\Experimentos.pdb
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.csprojResolveAssemblyReference.cache
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\MainWindow.g.cs
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Preferences.g.cs
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\App.g.cs
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.cache
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos_MarkupCompile.lref
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\MainWindow.baml
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Preferences.baml
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.g.resources
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.Properties.Resources.resources
+E:\WorkingOn\Experimentos\Experimentos\obj\Debug\Experimentos.csproj.GenerateResource.Cache

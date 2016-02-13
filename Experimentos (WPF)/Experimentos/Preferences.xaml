@@ -1,0 +1,138 @@
+﻿<Window x:Class="Experimentos.Preferences"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Experimentos"
+        mc:Ignorable="d"
+        Title="Panel de control" Height="868.882" Width="380.206"
+        Name="_PrefPanel"
+        Closing="Pref_Closing"
+        Closed="Pref_Closed">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        
+   
+    <Grid>
+        <TabControl TabStripPlacement="Top" Name="RibbonTabControl">
+                <TabItem Header="Mis Experimentos" Height="22" VerticalAlignment="Top">
+                    <StackPanel>
+                        <ListView Margin="5,10" Height="524" Name="miLista" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="miLista_SelectionChanged" >
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Nombre" Width="100" DisplayMemberBinding="{Binding nombre}" />
+                                    <GridViewColumn Header="Tipo" Width="150" DisplayMemberBinding="{Binding tipo}" />
+                                    <GridViewColumn Header="Planeta" Width="50" DisplayMemberBinding="{Binding planeta}" />
+                                    <GridViewColumn Header="Altura" Width="50" DisplayMemberBinding="{Binding altura}" />
+                                    <GridViewColumn Header="Velocidad" Width="60" DisplayMemberBinding="{Binding velocidad}" />
+                                    <GridViewColumn Header="Angulo" Width="50" DisplayMemberBinding="{Binding angulo}" />
+                                    <GridViewColumn Header="Masa" Width="50" DisplayMemberBinding="{Binding masa}" />
+                                </GridView>
+                                
+                            </ListView.View>
+
+
+                        </ListView>
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                            ------------
+                        </Label>
+                        <Button Background="LightGreen" IsEnabled="False" Name="viewButton" Margin="100,0" Click="Button_View">Visualizar Seleccionado</Button>
+
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                            ------------
+                        </Label>
+                        <Button Background="Tomato" Name="rmButton" IsEnabled="False" Margin="100,0" Click="Button_Remove">Eliminar Seleccionado</Button>
+                        <Button Background="Red" Name="clearButton" IsEnabled="False" Margin="100,5" Click="Button_Clear">Vaciar Lista</Button>
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                            ------------
+                        </Label>
+
+                    </StackPanel>                   
+                    
+                </TabItem>
+            <TabItem Header="Crear Nuevo">
+                <StackPanel>
+                    <Label HorizontalAlignment="Center">
+                        Nombre del Experimento
+                    </Label>
+                    <TextBox Margin="100,0" Name="entradaNombre" TextChanged="entradaNombre_TextChanged">
+                        
+                    </TextBox>
+                    <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <Label HorizontalAlignment="Center">
+                        Masa del experimento (0-1000gr)
+                    </Label>
+                    <Slider Maximum="1000" Width="300" Value="500" Name="entradaMasa"/>
+                    <TextBlock HorizontalAlignment="Center" Foreground="Black" Text="{Binding Value, ElementName=entradaMasa, StringFormat={}{0:0}}"
+               VerticalAlignment="Center"/>
+                      
+                    <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <GroupBox Header="Tipo de Experimento" HorizontalAlignment="Center">
+                        <StackPanel>
+                            <RadioButton GroupName="botonesTipo" Content="Caída Libre" Name="CLibre" IsChecked="True" Checked="CLibre_Checked"></RadioButton>
+                            <RadioButton GroupName="botonesTipo" Content="Tiro Parabólico" Name="TParabólico" Checked="TParabólico_Checked"></RadioButton>
+                            <RadioButton GroupName="botonesTipo" Content="Tiro Parabólico Elevado" Name="TPElevado" Checked="TPElevado_Checked"></RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                    <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <GroupBox Header="Planeta(o satélite)" HorizontalAlignment="Center">
+                        <StackPanel>
+                            <RadioButton GroupName="botonesPlaneta" Content="Tierra" Name="Tierra" IsChecked="True"></RadioButton>
+                            <RadioButton GroupName="botonesPlaneta" Content="Luna" Name="Luna"></RadioButton>
+                            <RadioButton GroupName="botonesPlaneta" Content="Marte" Name="Marte"></RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                    <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <Label HorizontalAlignment="Center">
+                        Altura del lanzamiento (0-250m)
+                    </Label>
+                        <Slider Maximum="250" Width="20" Value="0" Orientation="Vertical" Height="100" Name="entradaAltura"/>
+                        <TextBlock HorizontalAlignment="Center" Foreground="Black" Text="{Binding Value, ElementName=entradaAltura, StringFormat={}{0:0}}"
+               VerticalAlignment="Center"/>
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <Label HorizontalAlignment="Center">
+                        Ángulo del lanzamiento (0-90º)
+                    </Label>
+                    <Slider Maximum="90" Width="20" Value="0" IsEnabled="False" Orientation="Vertical" Height="100" Name="entradaAngulo"/>
+                    <TextBlock HorizontalAlignment="Center" Foreground="Black" Text="{Binding Value, ElementName=entradaAngulo, StringFormat={}{0:0}}"
+               VerticalAlignment="Center"/>
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <Label HorizontalAlignment="Center">
+                        Velocidad inicial del lanzamiento (0-15m/s)
+                    </Label>
+                        <Slider Maximum="15" Width="100" IsEnabled="False" Value="0" Orientation="Horizontal" Name="entradaVelocidad"/>
+
+                        <TextBlock HorizontalAlignment="Center" Foreground="Black" Text="{Binding Value, ElementName=entradaVelocidad, StringFormat={}{0:0}}"
+               VerticalAlignment="Center"/>
+                        <Label HorizontalAlignment="Center" Foreground="LightGray">
+                        ------------
+                    </Label>
+                    <Button Background="LightGreen" IsEnabled="False" Margin="150,0" Name="add_Button" Click="Button_Click">Añadir</Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Datos">
+                    <DockPanel Margin="10">
+                        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
+                            <Button Name="AbrirArchivo" Click="AbrirArchivo_Click" Width="138">Abrir archivo de datos</Button>
+                        </WrapPanel>
+                        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
+                            <Button Name="GuardarArchivo" Click="GuardarArchivo_Click">Guardar archivo de datos</Button>
+                        </WrapPanel>
+                    </DockPanel>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+    </ScrollViewer>
+</Window>
